@@ -1,0 +1,27 @@
+# TimeKeeper Automation Framework
+
+This project contains automated UI tests for the TimeKeeper web application using:
+
+- Python
+- Selenium
+- PyTest
+- Page Object Model (POM)
+
+## Project Structure
+
+timekeeper-automation/
+│
+├── pages/                # Page classes with locators and reusable methods
+├── tests/                # Test files
+├── conftest.py           # PyTest fixtures
+├── requirements.txt
+└── README.md
+
+
+## Framework Highlights
+
+- Page Object Model design
+- Explicit waits (WebDriverWait)
+- Parameterized tests
+- Clean separation of logic
+- Reusable methods
