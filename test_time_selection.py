@@ -9,7 +9,7 @@ def test_timer_options_displayed(driver):
     timers = page.get_timer_texts()
 
     assert "15:00" in timers
-    assert "25:00" in timers
+    assert "25:00" in timer
     assert "45:00" in timers
 
 
